@@ -1,0 +1,35 @@
+<!-- 6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="FirstName">FirstName</label><br>
+        <input type="text" name="name" id="FirstName"><br>
+        <label for="LastName">LastName</label><br>
+        <input type="text" name="name" id="LastName"><br>
+        <label for="Email">Email</label><br>
+        <input type="email" name="email" id="Email"><br>
+        <label for="salaried">Salaried</label>
+        <input type="radio" name="radio" id="salaried"><br>
+        <label for="ownbusiness">Own business</label>
+        <input type="radio" name="radio" id="ownbusiness">
+        <input type="reset">
+        <button onClick="foo()">Submit</button>
+
+    </form>
+    <script>
+        function foo() {
+            alert("sumbited your form")
+        }
+    </script>
+</body>
+
+</html>
